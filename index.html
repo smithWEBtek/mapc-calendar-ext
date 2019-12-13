@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-<head>
+<!DOCTYPE html><html><head>
   <title></title>
   <meta name="google" content="notranslate">
 
@@ -24,12 +21,11 @@
       --paper-icon-button-ink-color: white;
     }
 
-    body>iron-overlay-backdrop {
+    body > iron-overlay-backdrop {
       --iron-overlay-backdrop-background-color: white;
     }
   </style>
 </head>
-
 <body unresolved class="nochrome">
   <iron-iconset-svg name="ci-icons" size="48">
     <svg>
@@ -60,29 +56,37 @@
 
   <div id="main" class="loading">
     <section class="top-left">
-      <paper-icon-button id="applications" icon="apps" data-gacategory="ButtonClicked" data-gaaction="Apps">
+      <paper-icon-button id="applications" icon="apps" data-gacategory="ButtonClicked"
+                       data-gaaction="Apps">
       </paper-icon-button>
-      <paper-icon-button id="defaultNewTab" icon="ci-icons:default-new-tab" data-gacategory="ButtonClicked" data-gaaction="DefaultTab">
+      <paper-icon-button id="defaultNewTab" icon="ci-icons:default-new-tab"
+                       data-gacategory="ButtonClicked" data-gaaction="DefaultTab">
       </paper-icon-button>
     </section>
     <aside>
-      <rotating-button id="change" icon="refresh" data-gacategory="ButtonClicked" data-gaaction="Refresh">
+      <rotating-button id="change" icon="refresh" data-gacategory="ButtonClicked"
+                       data-gaaction="Refresh">
       </rotating-button>
       <h1><a id="title" data-gacategory="AttributionClicked" data-gaaction="Title">Untitled</a></h1>
       <p><a id="creator" data-gacategory="AttributionClicked" data-gaaction="Artist"></a>
-        <span class="pipe">|</span>
-        <a id="partner" data-gacategory="AttributionClicked" data-gaaction="Institution"></a>
+          <span class="pipe">|</span>
+          <a id="partner" data-gacategory="AttributionClicked" data-gaaction="Institution"></a>
       </p>
-      <p><a id="credits" href="https://metrocommon.mapc.org/" data-gacategory="AttributionClicked" data-gaaction="ArtProject" data-msg="credits"></a>
+      <p><a id="credits" href="https://artsandculture.google.com/"
+            data-gacategory="AttributionClicked" data-gaaction="ArtProject" data-msg="credits"></a>
       </p>
     </aside>
     <section class="bottom-right">
-      <paper-icon-button id="topsitesBtn" data-gacategory="ButtonClicked" data-gaaction="FrequentTabs" class="topsites-button" icon="ci-icons:topsites">
+      <paper-icon-button id="topsitesBtn"
+                       data-gacategory="ButtonClicked" data-gaaction="FrequentTabs"
+                       class="topsites-button" icon="ci-icons:topsites">
       </paper-icon-button>
     </section>
   </div>
 
-  <paper-dialog id="topSites" modal="true" entry-animation="scale-up-animation" transform-origin="1000 1000" exit-animation="fade-out-animation">
+  <paper-dialog id="topSites" modal="true"
+                entry-animation="scale-up-animation" transform-origin="1000 1000"
+                exit-animation="fade-out-animation">
     <div class="horizontal">
       <h2 id="topSitesTitle" data-msg="topsites" class="flex"></h2>
       <paper-icon-button id="back" icon="close" role="button"></paper-icon-button>
@@ -92,6 +96,4 @@
 
   <script src="index_compiled_index.js"></script>
 
-</body>
-
-</html>
+</body></html>

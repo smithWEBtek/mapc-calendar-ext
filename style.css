@@ -1,0 +1,22 @@
+.calendar__title {
+  background-color: rgb(103, 121, 75);
+  border-radius: 12px;
+  border: 2x solid rgb(12, 44, 12);
+  color: rgb(255, 255, 255);
+  font-size: large;
+  width: 856px;
+  height: 5px;
+  padding: 1.25rem;
+}
+
+.logo {
+  width: 80px;
+}
+
+.calendar__footer {
+  background-color: rgb(103, 121, 75);
+  border-radius: 12px;
+  border: 2x solid rgb(12, 44, 12);
+  width: 904px;
+  height: 2rem;
+}
